@@ -1,0 +1,115 @@
+/* TOP BAR */
+.top_bar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: end;
+  height: 60px;
+  font-size: 13px;
+}
+
+.top_bar > div {
+  margin: 10px;
+}
+
+/* CONTENTS */
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  font-size: 13px;
+}
+
+.mid_bar {
+  color: #d93025;
+  font-size: 20px;
+  border-bottom: 1px solid #d4dae0;
+  margin-bottom: 30px;
+  font-size: 23x;
+}
+.mid_bar > div {
+  margin: 25px 35px;
+}
+
+.first_row {
+  display: flex;
+  min-height: 41px;
+  align-items: center;
+}
+
+.col1 {
+  min-width: 160px;
+}
+
+.col2 {
+  min-width: 350px;
+}
+
+input {
+  height: 30px;
+  padding: 1px 8px;
+  width: 100%;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #3ea0f5;
+}
+
+input:active {
+  outline: none;
+  background-color: #3ea0f5;
+}
+
+.col3 {
+  padding-left: 10px;
+}
+
+/* ----------------------------------------------------*/
+/* LINKS */
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+/* ----------------------------------------------------*/
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.country1 {
+  padding: 15px 30px;
+  font-size: 17px;
+}
+
+.ft_menu_right {
+  display: flex;
+  padding-left: 15px;
+}
+
+.ft_menu_right > div {
+  margin: 15px;
+}
